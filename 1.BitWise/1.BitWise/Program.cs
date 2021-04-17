@@ -43,13 +43,22 @@ namespace DeepCodeBitWise
             uint value = 0;
             for (int index = 0; index < 4; index++)
             {
+                //shift 8 bits to the left for the other parts.
                 value = (value << 8);
                 value = (value | uintArray[index]);
-                //shift 8 bits to the left for the other parts.
-                //Console.WriteLine("Index is: "+ index + "   " + ConvertToBinary(value));
-
             }
             return value;
+        }
+        static void Unpack(uint value)
+        {
+            for (int index = 0; index < 4; index++)
+            {
+                
+                value = (value & 255) + value;
+                Console.WriteLine(ConvertToBinary(value));
+                //then shift to the right to get the other values.
+                value = (value >> 8);  
+            }
         }
         static void Main(string[] args)
         {
@@ -62,13 +71,22 @@ namespace DeepCodeBitWise
             const byte two = 8;
             const byte three = 201;
             const byte four = 25;
-            Console.WriteLine(ConvertToBinary(Pack(one, two, three, four)));
+            uint packedUint = Pack(one, two, three, four);
+            Console.WriteLine(ConvertToBinary(packedUint));
             /*  The output should be:
              * 00000101  5 one
              * 00001000  8 two
              * 11001001  201 three
              * 00011001  25 four
              */
+
+            Unpack(packedUint);
+            /*
+             * 00000101 00001000 11001001 00110010
+             * 00000000 00000101 00001001 10010010
+             * 00000000 00000000 00000101 00010010
+             * 00000000 00000000 00000000 00001010
+            */
         }
     }
 }
