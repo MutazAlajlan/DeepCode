@@ -1,0 +1,12 @@
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/bin/Debug/netcoreapp3.1/1.BitWise.deps.json
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/bin/Debug/netcoreapp3.1/1.BitWise.runtimeconfig.json
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/bin/Debug/netcoreapp3.1/1.BitWise.runtimeconfig.dev.json
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/bin/Debug/netcoreapp3.1/1.BitWise.dll
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/bin/Debug/netcoreapp3.1/1.BitWise.pdb
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/obj/Debug/netcoreapp3.1/1.BitWise.csprojAssemblyReference.cache
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/obj/Debug/netcoreapp3.1/1.BitWise.AssemblyInfoInputs.cache
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/obj/Debug/netcoreapp3.1/1.BitWise.AssemblyInfo.cs
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/obj/Debug/netcoreapp3.1/1.BitWise.csproj.CoreCompileInputs.cache
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/obj/Debug/netcoreapp3.1/1.BitWise.dll
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/obj/Debug/netcoreapp3.1/1.BitWise.pdb
+/Users/rook/Desktop/DeepCode/1.BitWise/1.BitWise/obj/Debug/netcoreapp3.1/1.BitWise.genruntimeconfig.cache
